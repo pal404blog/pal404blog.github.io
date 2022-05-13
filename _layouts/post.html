@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="post-image">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- begin post -->
+<div class="container animate">
+
+  <div class="post__info">
+    <h1 class="post__title">{{ page.title | escape }}</h1>
+    <div class="post__meta">
+      <time class="post__date"
+        datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time> – <span
+        class="post__minutes">{% assign words = page.content | number_of_words %} {% if words < 360 %} 1 min read
+        {% else %} {{ words | divided_by:180 }} min read {% endif %}
+      </span>
+    </div>
+  </div>
+
+  <article class="post">
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+    <div class="post__bottom">
+      {% if site.share_enabled %}
+      <div class="post__share">
+        <ul class="share__list list-reset">
+          <li class="share__item">
+            <a class="share__link share__twitter"
+              href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Twitter" rel="nofollow">Twitter</a>
+          </li>
+          <li class="share__item">
+            <a class="share__link share__facebook"
+              href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Facebook" rel="nofollow">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      {% endif %}
+      {% if page.tags.size >= 1 %}
+      <div class="post__tags">
+        {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
+    {% if site.show_author %}
+    <div class="post-author">
+      <a href="{{site.baseurl}}/about/" class="post-author__image" aria-label="{{site.author.name}}">
+        <img src="{{site.baseurl}}{{site.author.avatar}}" alt="{{site.author.name}}">
+      </a>
+      <div class="post-author__info">
+        <h2 class="post-author__name"><a href="{{site.baseurl}}/about/">{{site.author.name}}</a></h2>
+        <p class="post-author__bio">{{ site.author.bio }}</p>
+        <div class="post-author__meta">
+          {% for social in site.author-social %}
+          <a class="post-author__link" href="{{social.link}}" target="_blank"><i class="ion {{social.icon}}"></i></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+
+  </article>
+</div>
+<!-- end post -->

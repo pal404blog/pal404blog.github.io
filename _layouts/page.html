@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page-image">
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- begin page -->
+<div class="container animate">
+
+  <div class="page__info">
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+  </div>
+
+  <article class="page">
+    <div class="page__content">
+      {{ content }}
+    </div>
+  </article>
+
+</div>
+<!-- end page -->

@@ -1,0 +1,17 @@
+<div class="col col-4 col-d-6 col-t-12">
+  <div class="widget widget-info">
+    <div class="widget__head">
+      <div class="footer-logo">
+        <div class="footer-logo__link">
+          {% if site.logo %}
+          <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <p class="footer-text">{{ site.hero.hero__description }}</p>
+    {% include social-links.html %}
+  </div>
+</div>

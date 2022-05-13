@@ -1,0 +1,61 @@
+/* Color Scheme */
+
+:root {
+  --brand-color: #533feb;
+  --white: #fff;
+  --light-gray: #f0f0f0;
+  --gray: #6a6d76;
+  --dark: #0c101a;
+  --dark-blue: #1e2740;
+
+  --background-color: var(--white);
+  --background-alt-color: var(--dark);
+  
+  --text-color: var(--dark-blue);
+  --text-alt-color: var(--gray);
+  
+  --heading-font-color: var(--dark-blue);
+
+  --link-color: var(--dark-blue);
+  --link-color-hover: var(--brand-color);
+
+  --button-color: var(--white);
+  --button-background-color: var(--dark-blue);
+  --button-background-hover: var(--brand-color);
+
+  --border-color: var(--light-gray);
+  --border-color-alt: #212630;
+
+  --tr-color: var(--light-gray);
+
+  --syntax-highlighting-background: #f3f3f3;
+}
+
+:root[dark] {
+  --brand-color: #533feb;
+  --white: #fff;
+  --light-gray: #f0f0f0;
+  --dark: #0c101a;
+
+  --background-color: var(--dark);
+  --background-alt-color: #080b12;
+  
+  --text-color: #9a9eab;
+  --text-alt-color: #848690;
+  
+  --heading-font-color: var(--light-gray);
+
+  --link-color: var(--light-gray);
+  --link-color-hover: var(--brand-color);
+
+  --button-color: var(--white);
+  --button-background-color: #080b12;
+  --button-background-hover: var(--brand-color);
+
+  --border-color: #252629;
+  --border-color-alt: #212630;
+
+  --tr-color: #080b12;
+
+  --syntax-highlighting-background: #080b12;
+}

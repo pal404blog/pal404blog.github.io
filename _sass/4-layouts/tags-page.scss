@@ -1,0 +1,86 @@
+.tag {
+  padding: 96px 0 96px;
+  margin-bottom: 96px;
+  border-radius: 2px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--text-color);
+
+  .tag__inner {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--white);
+  }
+
+  .tag__title {
+    margin: 0;
+    padding: 16px 32px;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+  }
+
+  .tag__counter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 32px;
+    background: var(--white);
+    border-left: 1px solid var(--dark-blue);
+    color: var(--dark-blue);
+
+    span {
+      font-size: 40px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    small {
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .tag__inner {
+      display: flex;
+      margin: 0 32px;
+    }
+
+    .tag__title {
+      flex-grow: 1;
+    }
+  }
+
+  @media only screen and (max-width: $tablet) {
+    padding: 60px 0;
+    margin-bottom: 60px;
+
+    .tag__title {
+      font-size: 28px;
+    }
+  }
+
+  @media only screen and (max-width: $mobile) {
+    padding: 48px 0;
+    margin-bottom: 48px;
+
+    .tag__inner {
+      margin: 0 24px;
+    }
+
+    .tag__title {
+      font-size: 20px;
+    }
+
+    .tag__counter {
+      display: none;
+    }
+  }
+}

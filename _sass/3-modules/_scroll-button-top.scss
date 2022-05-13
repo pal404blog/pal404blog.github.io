@@ -1,0 +1,36 @@
+.top {
+  position: fixed;
+  bottom: 36px;
+  right: -100px;
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  border-radius: 14px;
+  background-color: var(--background-alt-color);
+  color: var(--light-gray);
+  cursor: pointer;
+  transition: all .25s ease;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--brand-color);
+  }
+
+  &.is-active {
+    right: 36px;
+  }
+}
+
+@media only screen and (max-width: $desktop) {
+  .top {
+    bottom: 24px;
+
+    &.is-active {
+      right: 28px;
+    }
+  }
+}
