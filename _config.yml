@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Blog
+title: Pal's Blog
 logo: /images/icon.png
 description: blog lists intrests and updates .
 baseurl: "" # the subpath of your site, e.g. /blog
