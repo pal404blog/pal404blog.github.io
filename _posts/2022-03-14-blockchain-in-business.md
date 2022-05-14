@@ -2,7 +2,7 @@
 layout: post
 title:  "How blockchain technology can improve your business ?"
 description: Blockchain into Business.
-date:   2021-05-14 17:23:45 -0800
+date:   2022-05-14 17:23:45 -0800
 image:  "https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 tags:   [blockchain]
 ---
