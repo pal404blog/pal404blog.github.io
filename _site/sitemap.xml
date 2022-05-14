@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/intro</loc>
-<lastmod>2021-05-14T06:53:45+05:30</lastmod>
+<lastmod>2022-05-13T20:30:45+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blockchain-in-business</loc>
-<lastmod>2021-05-15T06:53:45+05:30</lastmod>
+<lastmod>2022-05-14T06:30:45+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
