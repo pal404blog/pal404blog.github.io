@@ -2,7 +2,7 @@
 layout: post
 title:  "Philosophy for beginners to start with."
 description: philosophy for beginners to start with. Brief description
-date:   2022-05-13 17:00:45 -0800
+date:   2022-05-15 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1565060169194-19fabf63012c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 tags:   [philosophy]
 ---
