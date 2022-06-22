@@ -53,4 +53,4 @@ There are a few ways to make money in crypto, despite the market downturn. Here 
 
 >4. Investment: Investing in crypto can be a way to make money, but it’s risky. Invest only what you can afford to lose. Look for coins with a good team, product, and long-term prospects.
 
->5. Bounty programs: Many crypto projects have bounty programs that pay participants5. Bounty programs: Many crypto projects have bounty programs that pay participants
+>5. Bounty programs: Many crypto projects have bounty programs that pay participants
