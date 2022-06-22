@@ -6,8 +6,6 @@ date:   2022-06-21 17:00:45 -0800
 image:  "https://images-na.ssl-images-amazon.com/images/I/61k4ITNOEpL._SL1081_.jpg"
 tags:   [web3]
 ---
-
-
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
 ![](https://i.ibb.co/jbRVrYD/Tweet-by-Guido-van-Rossum.png)
