@@ -3,7 +3,7 @@ layout: post
 title:  "How to hate crypto and still make money"
 description: "Cryptocurrencies are in a massive bubble right now. "
 date:   2022-06-21 17:00:45 -0800
-image:  "https://images-na.ssl-images-amazon.com/images/I/61k4ITNOEpL._SL1081_.jpg"
+image:  "https://cdn.shopify.com/s/files/1/0587/7350/4182/products/2_0f4bc36c-a3b0-4e99-8dd8-27213ac7a5e1_540x.jpg?v=1641895298"
 tags:   [web3]
 ---
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
