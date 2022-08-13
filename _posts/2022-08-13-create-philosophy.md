@@ -2,7 +2,7 @@
 layout: post
 title:  "Philosophy- It's good to have your own"
 description: "Having a personal philosophy is important because it helps people stay focused "
-date:   2022-08-13 17:00:45 -0800
+date:   2022-08-12 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 tags:   [philisophy]
 ---
