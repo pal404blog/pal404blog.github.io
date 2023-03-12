@@ -2,7 +2,7 @@
 layout: post
 title:  "How to be organized in your 20's"
 description: "From improving your mental and physical health to strengthening your relationships and increasing your overall happiness, we delve into the science behind gratitude and provide practical tips"
-date:   2023-03-12 17:00:45 -0800
+date:   2023-03-11 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1499728603263-13726abce5fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNlbGYlMjBoZWxwJTIwdmVjdG9yfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 tags:   [self-help]
 ---
