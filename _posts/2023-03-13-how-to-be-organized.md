@@ -8,6 +8,8 @@ tags:   [self-help]
 ---
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
+
+
 Your 20s can be a time of great opportunity and excitement, but they can also be a time of chaos and confusion. As you navigate this decade of your life, it's essential to stay organized and focused to make the most of your time and achieve your goals. In this blog post, we'll explore some tips for being organized in your 20s.
 ##    Set goals and prioritize
 
