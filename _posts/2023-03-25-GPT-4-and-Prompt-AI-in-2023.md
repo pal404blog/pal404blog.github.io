@@ -2,7 +2,7 @@
 layout: post
 title:  " GPT-4 and Prompt AI in 2023"
 description: "The Future of Natural Language Processing"
-date:   2023-03-11 17:00:45 -0800
+date:   2023-03-22 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1679083216051-aa510a1a2c0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
 tags:   [technology]
 ---
