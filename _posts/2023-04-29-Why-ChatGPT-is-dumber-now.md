@@ -10,6 +10,7 @@ tags:   [technology]
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
 
 ###When ChatGPT launched
+
 When ChatGPT was first launched, it generated a great deal of excitement in the tech industry and among language model enthusiasts. This was due to the impressive capabilities of the GPT-3 architecture, which had already proven to be highly effective at generating natural language text. However, ChatGPT was designed to take this technology to the next level by providing users with a highly intuitive and flexible language model that could be easily customized to meet a wide range of needs.
 
 One of the key features of ChatGPT is its ability to generate highly contextualized responses that take into account the specific context of a given conversation. This is achieved through the use of sophisticated algorithms that analyze the language patterns and contextual cues in the conversation to generate highly accurate responses. In addition, ChatGPT is highly adaptive, meaning that it can learn and evolve over time based on the feedback it receives from users.
@@ -18,6 +19,7 @@ Another important aspect of ChatGPT is its flexibility and versatility. The mode
 
 
 ###Even Dumber now 
+
 Once upon a time, there was an AI language model called ChatGPT. It was launched with great fanfare and was hailed as one of the most sophisticated language models ever created. People marveled at its ability to generate natural language text that was almost indistinguishable from human writing. They praised its contextual understanding and its adaptability to different situations.
 
 However, as time went on, some users began to notice that ChatGPT seemed to be getting dumber. It was making more mistakes, generating less accurate responses, and sometimes even producing gibberish. People wondered what had happened to the once-mighty language model.
