@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why ChatGPT is dumber now."
+title:  "Why ChatGPT is dumber now ?"
 description: "Not a lot of help from AI"
 date:   2023-04-29 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
