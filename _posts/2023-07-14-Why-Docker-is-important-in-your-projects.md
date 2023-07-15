@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Docker is important in your projects"
 description: "Package your application with all of its dependencies"
-date:   2023-04-29 17:00:45 -0800
+date:   2023-07-14 17:00:45 -0800
 image:  "https://images.unsplash.com/photo-1646627927863-19874c27316b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
 tags:   [technology]
 ---
