@@ -12,43 +12,43 @@ tags:   [AWS]
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
 
 
-###What is Ansible?
+### What is Ansible?
 
 Ansible is a powerful open-source IT automation tool. Unlike traditional configuration management tools that require agents on managed nodes, Ansible is agentless. It uses SSH to connect to your servers and execute tasks defined in playbooks. This makes Ansible lightweight and easy to adopt.
 
-###Ansible and Configurations
+### Ansible and Configurations
 
 Ansible excels at managing configurations across multiple servers. You define the desired state of your system (e.g., software installed, packages updated, files copied) in playbooks, which are YAML-based files containing instructions. Ansible then executes these playbooks on your target machines, ensuring they all reach the desired state.
 
-###Setting Up Ansible on Your Control Machine
+### Setting Up Ansible on Your Control Machine
 
 Here's how to get started with Ansible on your control machine (the machine you'll use to run playbooks):
 
-###Install Ansible:
+### Install Ansible:
 
 The installation method depends on your operating system. Here's an example for Amazon Linux 2:
 
 
-> sudo yum update
+*sudo yum update
 sudo amazon-linux-extras install ansible2 ansible
  sudo yum update
 sudo amazon-linux-extras install ansible2 ansible
-ansible --versionansible --version
+ansible --versionansible --version*
 
 ### Create an Inventory File:
 
 An inventory file defines the machines Ansible will manage. You can use a simple static file listing IP addresses or hostnames, or leverage dynamic inventory plugins to discover EC2 instances automatically. Here's a basic static inventory example:
 
-> [myhosts]
+*[myhosts]
 server1 ansible_host=10.0.0.1
-server2 ansible_host=10.0.0.2
+server2 ansible_host=10.0.0.2*
 
 ### Write Your Playbook:
 
 Playbooks are the heart of Ansible automation. They define tasks to be executed on your managed servers. Here's an example that installs the docker package and configures Docker to start automatically on all servers in the myhosts group:
 
 
-````
+`
 
 ---
 - hosts: all
@@ -111,7 +111,8 @@ Playbooks are the heart of Ansible automation. They define tasks to be executed 
         command: "{{ default_container_command }}"
         state: present
       with_sequence: count={{ container_count }}
-	  ```
+
+`
 
 
 ### Running Your Playbook
@@ -119,4 +120,4 @@ Playbooks are the heart of Ansible automation. They define tasks to be executed 
 With your control machine set up, you can run your playbook:
 
 
-> ansible-playbook myplaybook.yaml
+*ansible-playbook myplaybook.yaml*
