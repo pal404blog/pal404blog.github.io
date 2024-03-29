@@ -48,9 +48,7 @@ server2 ansible_host=10.0.0.2*
 Playbooks are the heart of Ansible automation. They define tasks to be executed on your managed servers. Here's an example that installs the docker package and configures Docker to start automatically on all servers in the myhosts group:
 
 
-`
-
----
+```yaml
 - hosts: all
   become: true
   vars:
@@ -112,8 +110,8 @@ Playbooks are the heart of Ansible automation. They define tasks to be executed 
         state: present
       with_sequence: count={{ container_count }}
 
-`
 
+```
 
 ### Running Your Playbook
 
