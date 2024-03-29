@@ -13,12 +13,15 @@ tags:   [AWS]
 
 
 ###What is Ansible?
+
 Ansible is a powerful open-source IT automation tool. Unlike traditional configuration management tools that require agents on managed nodes, Ansible is agentless. It uses SSH to connect to your servers and execute tasks defined in playbooks. This makes Ansible lightweight and easy to adopt.
 
 ###Ansible and Configurations
+
 Ansible excels at managing configurations across multiple servers. You define the desired state of your system (e.g., software installed, packages updated, files copied) in playbooks, which are YAML-based files containing instructions. Ansible then executes these playbooks on your target machines, ensuring they all reach the desired state.
 
 ###Setting Up Ansible on Your Control Machine
+
 Here's how to get started with Ansible on your control machine (the machine you'll use to run playbooks):
 
 ###Install Ansible:
@@ -112,6 +115,7 @@ Playbooks are the heart of Ansible automation. They define tasks to be executed 
 
 
 ### Running Your Playbook
+
 With your control machine set up, you can run your playbook:
 
 
