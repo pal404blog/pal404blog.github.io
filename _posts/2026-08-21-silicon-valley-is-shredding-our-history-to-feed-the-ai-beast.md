@@ -3,7 +3,7 @@ layout: post
 title: Silicon Valley Is Shredding Our History to Feed the AI Beast
 description: While tech bros preach digital utopia, they are literally putting rare, irreplaceable physical books through industrial shredders to train their precious models.
 date: 2026-08-21 09:00:00 +0000
-image: https://loremflickr.com/1600/900/ai?lock=4623
+image: https://picsum.photos/seed/silicon-valley-is-shredding-our-history-to-feed-the-ai-beast/1600/900
 tags: [tech, ai]
 ---
 
