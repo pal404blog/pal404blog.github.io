@@ -3,7 +3,7 @@ layout: post
 title: Stop Installing Heavy Packages for Stuff the Web Already Does
 description: We are drowning in massive JavaScript bundles to solve problems HTML and CSS solved years ago.
 date: 2026-08-21 09:00:00 +0000
-image: https://loremflickr.com/1600/900/web
+image: https://picsum.photos/seed/stop-installing-heavy-packages-for-stuff-the-web-already-does/1600/900
 tags: [tech, web]
 ---
 
