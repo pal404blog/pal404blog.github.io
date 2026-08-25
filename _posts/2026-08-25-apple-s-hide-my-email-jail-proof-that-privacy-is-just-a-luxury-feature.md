@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apple’s Hide My Email Jail: Proof That Privacy Is Just a Luxury Feature
+ param($m) 'title: "' + ($m.Groups[1].Value.Substring(7).Trim().Replace('"','\"')) + '"' 
 description: Apple is locking down Hide My Email to the web, proving they only care about your data until they can upsell you an AI subscription.
 date: 2026-08-25 09:00:00 +0000
 image: https://loremflickr.com/1600/900/ai?lock=81408
