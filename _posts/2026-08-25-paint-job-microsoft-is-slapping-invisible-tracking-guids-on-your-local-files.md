@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paint Job: Microsoft Is Slapping Invisible Tracking GUIDs on Your Local Files
+ param($m) 'title: "' + ($m.Groups[1].Value.Substring(7).Trim().Replace('"','\"')) + '"' 
 description: Microsoft just proved that local creation is a lie by quietly baking invisible GUID watermarks into MS Paint and Photos output.
 date: 2026-08-25 09:00:00 +0000
 image: https://loremflickr.com/1600/900/ai?lock=18150
